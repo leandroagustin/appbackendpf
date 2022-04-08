@@ -17,7 +17,6 @@ let chats = Daos.chats;
 //Logs
 const logs = require("../logs/loggers");
 const loggerConsola = logs.getLogger("consola");
-const loggerError = logs.getLogger("error");
 
 //Sign up
 passport.use(

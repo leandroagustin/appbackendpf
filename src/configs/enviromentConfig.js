@@ -7,13 +7,13 @@ const enviroment = process.env.NODE_ENV;
 switch (enviroment) {
   case "development":
     port = 8080;
-    db = "mongodb://127.0.0.1:27017/ecommerce";
+    db = "mongodb+srv://Leandro:123@clusterdemo.eullt.mongodb.net/test";
     session_time = 600000;
     adminMail = "leandromena_94@hotmail.com";
     break;
   case "test":
     port = 8080;
-    db = "mongodb://127.0.0.1:27017/ecommerce_test";
+    db = "mongodb+srv://Leandro:123@clusterdemo.eullt.mongodb.net/test";
     session_time = 600000;
     adminMail = "leandromena_94@hotmail.com";
     break;
@@ -25,7 +25,7 @@ switch (enviroment) {
     break;
   default:
     port = 8080;
-    db = "mongodb://127.0.0.1:27017/ecommerce";
+    db = "mongodb+srv://Leandro:123@clusterdemo.eullt.mongodb.net/test";
     session_time = 60000;
     adminMail = "leandromena_94@hotmail.com";
     break;
