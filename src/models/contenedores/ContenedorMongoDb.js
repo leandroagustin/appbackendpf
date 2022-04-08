@@ -5,6 +5,8 @@ const {
   removeField,
 } = require("../../helpers/helpersMongo");
 
+require("dotenv").config();
+
 //Logs
 const logs = require("../../logs/loggers");
 const loggerConsola = logs.getLogger("consola");

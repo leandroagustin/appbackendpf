@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const session = require("express-session");
 const passport = require("passport");
-const dotenv = require("dotenv").config();
+require("dotenv").config();
 const middlewares = require("./src/middlewares/middlewares");
 
 //compression
